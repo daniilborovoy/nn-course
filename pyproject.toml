@@ -1,0 +1,14 @@
+[project]
+name = "nn-course"
+version = "0.0.1"
+description = "Labs from nn course"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.6",
+    "notebook>=7.4.5",
+    "pandas>=2.3.2",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
